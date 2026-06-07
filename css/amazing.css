@@ -1,0 +1,495 @@
+.amazing-container{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    .amazing{
+        width: 98%;
+        height: 100%;
+        background: linear-gradient(225deg,#d22c4e,#ee384e 41.68%,#ef5662);
+        padding: 20px 0px;
+        box-sizing: border-box;
+        border-radius: 20px;
+       .title{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content:space-evenly;
+                align-items: center;
+                position: absolute;
+                padding: 0px 30px;
+                svg{
+                    width: 120px;
+                    height: 120px;
+                }
+                .icon{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    svg{
+                        width: 80px;
+                        height: 80px;
+                    }
+                   
+                }
+                 .more{
+                      padding-top: 30px;
+                     
+                      
+                        a{
+                            text-transform: capitalize;
+                            text-decoration: none;
+                            color: white;
+                            font-size: iranyekan;
+                            font-size: 14px;
+                           
+                        }
+                    }
+            }
+       
+
+            
+            .slide1{
+               
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                box-sizing: border-box;
+                background-color: white;
+                right: 200px;
+               
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+    
+                }
+              .prouduce{
+                .slide2 , .slide3 , .slide4 ,.slide5 , .slide6{
+                   .price{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content:space-between;
+                    align-items: center;
+                    direction: ltr;
+                    padding-left: 10px;
+                   a{
+   .newprice{
+   color: black;
+                    font-family: iranyekan;
+                    font-size: 12px;
+                    /* margin:9px auto; */
+                   position: absolute;
+                   /* right:40px; */
+                   display: flex;
+                   flex-flow: row nowrap;
+                   justify-content: start;
+                   align-items: center;
+                   padding-top: 9%;
+                   padding-right: 20%;
+                   
+                 
+                   
+                    svg{
+                        width: 15px;
+                        height:15px;
+                    }
+                    }
+                    .disacount{
+                        width: 35px;
+                        display: flex;
+                        justify-content:center;
+                        align-items: center;
+                        position: absolute;
+                    right:7%;
+                    bottom:22%;
+                     color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 13px;
+                    /* padding:2px 10px; */
+                    box-sizing: border-box;
+                    border-radius: 30px;
+                   
+                    
+                    }
+                    .oldprice{
+
+width: 100%;
+                text-align: left;
+                color: rgb(162, 152, 152);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 20px;
+                /* position: absolute; */
+                margin: 20px auto;
+                padding-left: 10px;
+                    }
+                   }
+                 
+                }  
+                }
+ .price{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content:space-between;
+                    align-items: center;
+                    direction: ltr;
+                    padding-left: 10px;
+                   a{
+   .newprice{
+   color: black;
+                    font-family: iranyekan;
+                    font-size: 12px;
+                    /* margin:9px auto; */
+                   position: absolute;
+                   /* right:40px; */
+                   display: flex;
+                   flex-flow: row nowrap;
+                   justify-content: start;
+                   align-items: center;
+                   padding-top: 9%;
+                   padding-right: 20%;
+                   
+                 
+                   
+                    svg{
+                        width: 15px;
+                        height:15px;
+                    }
+                    }
+                    .disacount{
+                        width: 35px;
+                        display: flex;
+                        justify-content:center;
+                        align-items: center;
+                        position: absolute;
+                    right:7%;
+                    bottom:22%;
+                     color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 13px;
+                    /* padding:2px 10px; */
+                    box-sizing: border-box;
+                    border-radius: 30px;
+                   
+                    
+                    }
+                    .oldprice{
+
+width: 100%;
+                text-align: left;
+                color: rgb(162, 152, 152);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 20px;
+                /* position: absolute; */
+                margin: 20px auto;
+                padding-left: 10px;
+                    }
+                   }
+                 
+                }
+              }
+                
+              
+               
+               
+                }
+               
+            .slide2{
+                  width:10%;
+                height:36%;
+              
+                position: absolute;
+               
+                box-sizing: border-box;
+                background-color: white;
+                right: 360px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                 
+                }
+            } 
+
+             .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+        }
+            
+            
+            .slide3{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:520px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                }
+              
+                
+               
+               
+                }    
+       
+       
+            .slide4{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:680px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                }
+              
+                    .slide5{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:840px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                }
+               
+               
+                    .slide6{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:1000px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                }
+           
+       
+                   .slide7{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:1160px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                }
+        
+              
+                          .slide8{
+                width:10%;
+                height:36%;
+              
+                position: absolute;
+                
+                box-sizing: border-box;
+                background-color: white;
+                right:1325px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius:10px;
+                .pic{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                    width: 132px;
+                    height: 132px;
+                  
+                }
+                }
+               .text{
+                a{
+                    
+font-size: 10px;
+font-family: iranyekan;
+text-decoration: none;
+color: #62666d;
+
+                }
+
+               }
+
+               
+    
+                } 
+               
+               
+                }    
+    
+    }
+}

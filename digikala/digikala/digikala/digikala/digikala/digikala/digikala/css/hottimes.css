@@ -1,0 +1,105 @@
+.bestselling{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+    .title{
+       display:flex ;
+       flex-flow: row nowrap;
+       justify-content: start;
+       align-items: start;
+       position: absolute;
+       font-family: iranyekan;
+       padding-bottom:300px;
+       font-size: 20px;
+       gap: 10px;
+       
+        
+        svg{
+ width: 24px;
+    height: 24px; 
+    fill:#f9bc00;
+    
+        }
+     .go{
+        width:50%;
+        
+         color:#19bfd3;
+        position:absolute;
+        font-family: iranyekan;
+        font-size: 14px;
+        padding-right:730px;
+        text-decoration: none;
+
+        
+        
+    }
+        
+       
+    }
+    
+    
+    .mainbestselling{
+        width: 97%;
+        height: 95%;
+        /* background-color: green; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:start;
+        align-items: start;
+         border: 1px solid lightgray;
+    border-radius: 20px;
+        
+        .slide{
+            display: flex;
+            flex-flow:row nowrap;
+            justify-content: center;
+            align-items: center; 
+            /* position: absolute; */
+            padding-bottom: 100px;
+           
+            
+            img{
+            width: 86px;
+            height: 86px;
+             display: flex;
+            flex-flow:column nowrap;
+            justify-content:center;
+            align-items: center; 
+            position: absolute;
+            padding-top:100px;
+           
+            gap: 10px;
+           
+            }
+            .title{
+                width:220px;
+                 font-family: iranyekan;
+                 font-size: 14px;
+                 color: #19bfd3;
+                 position: absolute;
+                 padding-right:120px;
+                 padding-top:130px ;
+                 text-decoration: none;
+                text-overflow: ellipsis;
+               
+                 /* overflow: hidden; */
+                white-space: nowrap; */
+                
+                 
+                
+            }
+
+        }
+
+        
+        
+       
+    }
+}

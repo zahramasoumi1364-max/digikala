@@ -1,0 +1,131 @@
+.main-supermarket{
+    width: 100%;
+    height:135px;
+   
+    display: flex;
+    flex-flow:row nowrap ;
+    justify-content: center;
+    align-items: center;
+    .supermarket{
+        width:96%;
+        height: 110px;
+        background-color: #ECEEEE;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content:start;
+        align-items: center;
+        border-radius: 20px;
+        padding: 0px 10px;
+        box-sizing: border-box;
+       
+       .right{
+            width:70%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:start;
+            align-items:center;
+            gap:35px;
+            .iconsuper{
+                width: 40px;
+                padding-right:20px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+               
+                
+               
+            } 
+            .textsuper{
+                width: 50%;
+                height: 25px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                gap:20px;
+               
+              svg{
+                width: 250px;
+                height: 28px;
+                fill:#029a49;
+                /* padding: 10px 20px;
+                box-sizing: border-box; */
+              }
+            }
+            .off{
+                width:30%;
+                height:70%;
+                background:#029a49;
+                border-radius: 20px;
+                text-align: center;
+                font-size: 15px;
+                color: white;
+                font-family: iranyekan;
+                padding:5px 5px;
+                cursor: pointer;
+                
+              
+                
+              
+            }
+        }
+        .left{
+            width: 60%;
+            height: 100%;
+           
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            padding-left:30px;
+            .kalaha{
+                width: 100%;
+                height: 100%;
+              
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    gap: 5px;
+                }
+            }
+            .morekala{
+                width:30%;
+                height:51px;
+                border-radius: 25px;
+                text-align: start;
+                padding:20px 20px;
+               box-sizing: border-box;
+               font-size: 12px;
+               background-color:#FFFFFF;
+               font-family: iranyekan;
+               color:#029a49;
+               display: flex;
+               flex-flow: row nowrap;
+               justify-content: center;
+               align-items: center;
+              gap: 15px;
+               .arrow{
+                width: 20px;
+                height: 20px;
+                 svg{   
+                    width: 20px;
+                     height: 20px;
+                      fill:#029a49;
+            
+               }
+               }
+               
+               
+            }
+        }
+
+    }
+}

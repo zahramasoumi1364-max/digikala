@@ -1,0 +1,566 @@
+.bartarinha{
+    width: 100%;
+    height: 840px;
+    /* background-color: blue; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+    .title{
+        display:flex ;
+       flex-flow: row nowrap;
+       justify-content: start;
+       align-items: start;
+       position: absolute;
+       font-family: iranyekan;
+       padding-bottom:750px;
+       font-size: 20px;
+       gap: 10px;
+        
+      
+    
+    svg{
+        width: 24px; 
+        height: 24px;
+         fill:#ef4056 ;
+        
+    }
+}
+    .mainbartarinha{
+        width: 97%;
+        height: 820px;
+        /* background-color: yellow; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:start;
+        align-items: start;
+        border: 1px solid lightgrey;
+    border-radius: 20px;
+       
+        
+        
+        
+        .prouduct1{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content:start;
+            align-items: center;
+           
+            text-decoration: none;
+            position: absolute;
+           padding-right:2%;
+           padding-top: 7%;
+           gap: 15px;
+           
+            
+           
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width:100%;
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+              
+                
+               
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                    
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }
+         .prouduct2{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+           
+            text-decoration: none;
+            
+            
+            padding-right:240px;
+            padding-top: 7%;
+            position: absolute;
+            gap: 15px;
+            
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }
+
+         
+         .prouduct3{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* gap: 20px; */
+            text-decoration: none;
+            position: absolute;
+           padding-top:7%;
+           /* padding-bottom: 30%; */
+           padding-right:32%;
+           gap: 15px;
+            
+           
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }
+
+         .prouduct4{
+            width:10%;
+            display: flex;
+            flex-flow:column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* gap: 20px; */
+            text-decoration: none;
+            position: absolute;
+           padding-top: 7%;
+            padding-right: 70%;
+            gap: 15px;
+           
+            
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }
+         
+         .prouduct4{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* gap: 20px; */
+            text-decoration: none;
+           padding-right:48%;
+           position: absolute;
+           padding-top: 7%;
+           gap: 15px;
+            
+           
+            
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }  
+        .prouduct5{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* gap: 20px; */
+            text-decoration: none;
+            gap: 15px;
+          
+           position: absolute;
+           padding-top:7%;
+           padding-right:65%;
+            
+           
+            
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        } 
+         .prouduct6{
+            width:10%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* gap: 20px; */
+            text-decoration: none;
+           padding-right:650px;
+           position: absolute;
+           padding-top:7%;
+           padding-right:83%;
+           gap: 15px;
+            
+           
+            
+            .image{
+            width: 100%;
+           
+            img{
+                width: 100%;
+                object-fit: cover;
+                
+               
+            }
+            }
+            .price{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                direction: ltr;
+                padding-top: 20px;
+               
+               
+                .newprice{
+                    color: black;
+                    font-family: iranyekan;
+                    font-size: 16px;
+                   
+                    svg{
+                       width: 16px;
+                        height: 16px; 
+                        fill: #424750; 
+                       
+                        
+                    }
+
+                }
+                .discount{
+                    color: white;
+                    background-color: crimson;
+                    font-family: iranyekan;
+                    font-size: 14px;
+                    padding:2px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+
+                }
+
+            }
+            .oldprice{
+                width: 100%;
+                text-align: left;
+                color: rgb(211, 197, 197);
+                font-family: iranyekan;
+                font-size: 13px;
+                text-decoration: line-through;
+                padding-top: 10px;
+               
+
+            }
+        }    
+
+
+        
+        
+
+        
+    }
+}

@@ -1,0 +1,675 @@
+header{
+    width:100%;
+    height: var(--heightheader);
+    box-shadow: 0px 2px 3px  lightgray;
+    
+}
+.top{
+    width: 100%;
+    height: calc(var(--heightheader) - 110px);
+    background-color: aqua;
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
+
+.middle{
+    width: 100%;
+    height:calc(var(--heightheader) - 100px);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    .right{
+        width:70%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        .icon{
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .search{
+            width:60%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-items: center;
+            input#search{
+                width: 80%;
+                height: 40px;
+                border: unset;
+                border-radius: 5px;
+                background-color:#F0F0F1 ;
+                padding: 0px 20px;
+                box-sizing: border-box;
+                transition: 600ms;
+                &::placeholder{
+color: #79797e;
+font-size: 12px;
+font-family: iranyekan;
+
+            }
+            &:focus{
+                outline: unset;
+                background-color:white;
+                box-shadow: 5px 5px 25px rgb(46, 40, 40);
+            
+            
+            }
+        }
+       
+    }
+
+}
+.left{
+    width:25%;
+    height:100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+    justify-content: end;
+    align-items: center;
+}
+.alert-login{
+    width:80%;
+    height:100%;
+    display: flex;
+    gap: 24px;
+    justify-content: end;
+    .alert{
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        cursor: pointer;
+        svg{
+            width:24px;
+            height: 24px;
+            font-size: 24px;
+            font-weight: normal;
+            color:#424750;
+        }
+    }
+   .login{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-family: iranyekan;
+        color: black;
+        button.loginbtn{
+     all:unset;
+     border: 1px solid lightgray;
+     padding: 8px 18px;
+     box-sizing: border-box;
+     border-radius: 5px;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     svg{
+        width: 16px;
+        height: 20px;
+        fill: var(--color-icon-heigh-emphasis);
+     }
+    
+        }
+    
+    }
+   } 
+}
+.cart{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+
+   a{
+        border-right: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right:16px;
+        box-sizing: border-box;
+        svg{
+        width: 24px;
+       height: 24px;
+        fill:#424750 ;
+         path{
+         margin-right: 20px;
+         }
+      
+        }
+    }
+        
+    }
+}
+.bottom{
+    width:100%;
+    height: calc(var(--heightheader) - 130px);
+    padding:0px 20px ;
+     box-sizing: border-box;
+    
+    nav{
+        width: 100%;
+        height: 100%;
+         display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+       .mainMenu{
+        height: 100%;
+        ul{
+           width: 100%;
+           height: 100%; 
+           display: flex;
+           flex-flow:row nowrap ;
+           justify-content: start;
+           align-items: center;
+           list-style:none;
+           gap: 24px;
+           li{
+            width: fit-content;
+            height: 100%;
+            transition: 3ms;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: relative;
+            &:hover{
+               .subMenu{
+                display: block !important;
+              
+             
+               } 
+            }
+
+            
+            svg{
+                width: 24px;
+                 height:16px;
+                  fill: #a1a3a8;
+            }
+           a{
+            text-decoration: none;
+            color:#5D6167;
+            font-family: iranyekan;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            &.main-item{
+                color: black;
+                font-weight: bold;
+                font-size:14px;
+              svg{
+                width: 20px;
+                 height: 20px;
+                fill:#424750;
+                font-weight: bold;
+                
+              
+            }
+          
+                
+            }
+
+           
+            &.border-right{
+            border-right: 1px solid lightgray;
+            padding-right: 8px;
+          box-sizing: border-box; 
+
+           
+           }
+         
+        }
+         .subMenu{
+          
+             width:75vw; 
+            height:60VH; 
+            top: 100%;
+           
+          
+            position: absolute;
+            right: 0;
+            box-shadow:0px 5px 25px lightgrey;
+            display: none;
+            transition: 500ms;
+            z-index:1;
+       
+
+            .sub2Menu{
+             width:100%;
+             height: 100%;
+             background-color:#F5F5F5 ;
+            /* z-index: 3; */
+             top: 0;
+             /* position: absolute;  */
+        
+             svg{
+                width: 18px;
+                 height: 18px;
+                 font-size: 18px;
+                  font-weight: normal; 
+                  fill:#424750;
+                  padding-right: 5px;
+             }
+            
+             ul{
+                width: 100%;
+                height: 100%;
+                list-style: none;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                
+                 overflow: auto;
+                direction:ltr ; 
+               
+                
+                
+                 
+                li{
+                    width: 100%;
+                    height: 100%;
+                    text-align: right;
+                    padding:15px 20px;
+                    box-sizing: border-box;
+                    /* position: absolute; */
+
+                    &:hover{
+                       
+                     .sub3Menu{
+                        display: block !important;
+                        height: 60VH;
+                        top: 0;
+                        /* position: absolute; */
+                        
+                     }  
+                    }
+                    
+                    a{
+                        width: 100%;
+                       
+                        display: block;
+                      
+                        text-decoration: none;
+                        color: rgb(64, 61, 61);
+                        font-family: iranyekan;
+                        font-size:10px;
+                    }
+                    &:hover{
+                        background-color: white;
+                      
+                        a{
+                            color: red;
+                            
+
+                        }
+                    }
+                    .sub3Menu{
+                        width:80%;
+                        height:450px;
+                        top: 0;
+                        position: absolute;
+                     
+                        
+                      overflow: auto;
+                         direction: ltr;
+                        background-color: white;
+                        
+                        right:20%;
+                        display: none;
+                        transition: 600ms;
+                    
+                        gap: 20px;
+                        .item1{
+                            padding: 20px;
+                           
+                         
+                          a{
+                         
+                            font-size: 12px;
+                            font-family: iranyekan;
+                            color: #008eb2;
+                           
+                            /* padding-bottom: 30px; */
+                           
+                          }
+                        }
+                            .title{
+                               
+                                 display: flex;
+                                flex-flow: row nowrap;
+                                justify-content:start;
+                                 align-items: start; 
+                                 /* top: 100px; */
+                                 /* position: absolute; */
+                                 
+                                 
+                                    .border{
+                              border-right:2px solid red;
+                                   
+                                  color: #0c0c0c;
+                               padding-right: 8px;
+                             box-sizing: border-box; 
+                            
+                            
+           
+                                     }
+                                 .list{
+                                    width: 100%;
+                                  
+                                    display: flex;
+                                    flex-flow: column nowrap;
+                                    justify-content: start;
+                                    align-items: start;
+                                    gap: 20px;
+                                    
+                                          a{
+                                       font-size: 12px;
+                              font-family: iranyekan;
+                                
+                              color:#81858b; 
+                              
+                                    }
+                                        }
+                              
+                                    }
+                                    
+                                  
+                                 }
+                                 
+                                
+                                
+                              a{
+                                font-size: 12px;
+                              font-family: iranyekan;
+                              font-weight: bold;  
+                              color: black;
+                              
+                              
+                              }  
+
+                            }
+                            
+                              
+                              
+                         &.active{
+                            display: block !important;
+                        } 
+             
+                        
+                       
+                        
+                       
+                        .item2{
+                             /* width: 100px;  */
+                              height: 100px; 
+                            display: flex;
+                            flex-flow: row nowrap;
+                            justify-content:start;
+                            align-items: start;
+                            /* gap:40px; */
+                            padding:10px;
+                            direction: rtl;
+                            
+
+                            ul{
+                                width: 100%;
+                                height: 100%;
+                                
+                            li{
+                                width: 100%;
+                                height: 100%; 
+                            
+                                
+                                  }
+
+                          
+                               
+                                a{
+                                    
+                                font-size: 12px;
+                              font-family: iranyekan;
+                              font-weight: bold;  
+                              color: black;
+                              
+                             
+                              
+                              
+                              } 
+                            }
+
+                            }
+                            
+                           
+                            
+                            
+                                 
+                       
+                        }
+                    }
+                }
+             }
+
+             }
+            }
+        }
+           }
+        
+      .city{
+       height:100%;
+       padding-top: 10PX;
+        .citybtn{
+     all: unset;
+        background-color: #FEF6EF;
+        color: #f57f17;
+        font-family: iranyekan;
+        font-size: 14px;
+        padding: 5px 16px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        overflow: auto;
+   }
+
+   .modal{
+    width: 38%;
+    height:68%;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 35% / 2);
+    top: calc(50% - 40 / 2);
+    display: none;
+    z-index: 2;
+    overflow: auto;
+    padding-top: 20px;
+   padding-right: 20px;
+   h2{
+  padding-bottom:10px;
+   }
+   .br{
+  border-bottom: 1px solid lightgray;
+  top: 30px;
+
+   }
+ 
+    .top-modal{
+        width:570px;
+        height: 50px;
+        background-color: rgb(221, 216, 216);
+        border-radius: 10px;
+        position: absolute;
+        top: 72px;
+        right: 20px;
+        left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            width:100%;
+            height: 50px;
+            background-color: #F5F5F5;
+            border:unset;
+           &::placeholder{
+            font-size: 16px;
+            font-family: iranyekan;
+           }
+        }
+
+      
+    }
+            .btm{
+             position: absolute;
+             top: 130px;
+             right: 20px;
+             left: 30px;
+             font-size: 16px;
+            font-family: iranyekan;
+          
+        }
+    .repeat{
+        padding-bottom: 20px;
+        position: absolute;
+        top: 170px;
+        right: 20px;
+        font-family: iranyekan;
+        font-size: 18px;
+    }
+
+    .cities{
+        .a , .b , .c , .d , .e , .f{
+            width: 60px;
+           height: 40px;
+          border-radius: 30%;
+          border: 1px solid lightgrey;
+          display: flex;
+          
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 230px;
+          gap: 20px;
+          right: 5%;
+          text-decoration: none;
+          font-size: 14px;
+          font-family: iranyekan;
+          color: gray;
+        }
+        .b{
+            right:20%;
+        }
+        .c{
+            right:35%;
+        }
+        .d{
+            right:50%;
+
+        }
+        .e{
+            right:65%;
+        }
+        .f{
+            right: 80%;
+        }
+    }
+    .towns{
+
+        .one , .two , .three , .for , .five , .six {
+            display: flex;
+  
+            position: absolute;
+            top:300px;
+            right: 20px;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: rgb(114, 108, 108);
+  
+    
+   
+
+        }
+        .two{
+              
+            top:360px;
+            
+        }
+        .three{
+            
+            top:420px;
+           
+        } 
+        .for{
+            top: 480px;
+        }
+        .five{
+            top:540px;
+        }
+        .six{
+            top:540px;
+        }
+  
+        }
+
+        .titletowns{
+            display: flex;
+            color: #393b3e;
+            font-family: iranyekan;
+   
+       
+         
+        }
+        p{
+            color: #79797e;
+            font-family: iranyekan;
+
+        }
+  
+         
+    }
+
+    .closebtn{
+        display: block;
+                width: fit-content;
+                color: black;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 30px;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+    }
+    
+   
+   }
+    input#city:checked ~ .modal{
+                display: block !important;
+            }
+
+            input#city , input#close {
+                display: none;
+            }
+
+  
+}

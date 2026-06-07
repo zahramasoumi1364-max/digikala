@@ -1,0 +1,34 @@
+.tablighat{
+    width: 100%;
+    height:270px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.main-tablighat{
+    width: 97%;
+    height: 100%;
+    padding: 12px 15px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:start;
+    gap: 10px;
+    .tabligh{
+        width:80%;
+        height: 250px;
+        /* border-radius: 30px;
+        box-sizing: border-box; */
+        img{
+            width:350px;
+            height:250px;
+            border-radius: 30px;
+            box-sizing: border-box;
+        }
+        
+    }
+
+}

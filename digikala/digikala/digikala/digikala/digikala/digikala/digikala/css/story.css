@@ -1,0 +1,49 @@
+div.story-container {
+  width: 100%;
+  height: 175px;
+  /* background-color: blue; */
+  .story {
+    width: 97%;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    .story-item {
+      width: 12%;
+      height: 100%;
+      /* background-color: green; */
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: safe;
+      align-items: center;
+      gap: 18px;
+      cursor: pointer;
+      .image {
+        width: 80px;
+        height: 80px;
+        img {
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          outline: 2px solid purple;
+          outline-offset: 3px;
+        }
+      }
+    
+      .title {
+        width: 100%;
+        text-align: center;
+        font-family: iranyekan;
+        color: #23254e;
+        font-size: 12px;
+      }
+    }
+  }
+}
